@@ -25,4 +25,9 @@ class LED {
  
 #endif
     
+//  In this case, it might be okay not to use include guards, but it is recommended to use them.
 
+///  Reasons to use include guards:
+
+// - Prevents multiple definitions: Avoids errors from multiple definitions if the header file is included multiple times.
+// - Reduces compile time: Prevents the same header file from being included multiple times, therefore reducing compile time.
